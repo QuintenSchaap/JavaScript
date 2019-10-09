@@ -1,0 +1,11 @@
+bl1.style.backgroundColor= "aqua";
+bl2.style.backgroundColor= "green";
+bl3.style.backgroundColor= "yellow";
+bl4.style.backgroundColor= "red";
+bl2.style.marginTop= "20";
+bl3.style.marginTop= "50";
+bl1.style.paddingLeft= "30";
+bl1.style.paddingTop= "20";
+bl2.style.paddingLeft= "30";
+bl3.style.paddingLeft= "62";
+document.getElementById("tekst").style.fontFamily = "Saira Extra Condensed";
