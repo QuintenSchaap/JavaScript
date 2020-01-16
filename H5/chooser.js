@@ -17,8 +17,8 @@ function ColorImages() {
         favoriet = document.createElement("div");
         favoriet.className = "favoriet";
         favoriet.id = "favoriet_" + (i + 1);
-        kleurAfbeelding = document.createElement("H6.img");
-        kleurAfbeelding.src = "H6.img/afbeelding" + (i + 1) + ".png";
+        kleurAfbeelding = document.createElement("img");
+        kleurAfbeelding.src = "img/afbeelding" + (i + 1) + ".png";
         kleurAfbeelding.id = (i + 1);
         kleurAfbeelding.addEventListener("click", function () {
             maakFavoriet(this.id);
@@ -36,6 +36,6 @@ function maakFavoriet(id) {
         nietFavoriet[i].style.backgroundImage = "none";
     }
     favoriet= document.getElementById("favoriet_" + id);
-    favoriet.style.backgroundImage = "url('H6.img/heart.png')";
+    favoriet.style.backgroundImage = "url('img/heart.png')";
 }
 

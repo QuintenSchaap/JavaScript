@@ -1,10 +1,10 @@
 var slideholder = document.getElementById("slideholder");
-slideholder.style.backgroundImage = "url('H6.img/afbeelding1.png')";
+slideholder.style.backgroundImage = "url('img/afbeelding1.png')";
 var tellerkin = 1;
 
 
 slideholder.addEventListener("click", function () {
-    slideholder.style.backgroundImage = "url('H6.img/afbeelding" + volgendeAfbeelding() + ".png')";
+    slideholder.style.backgroundImage = "url('img/afbeelding" + volgendeAfbeelding() + ".png')";
 });
 
 function volgendeAfbeelding() {
