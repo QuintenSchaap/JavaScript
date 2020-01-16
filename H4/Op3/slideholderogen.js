@@ -1,12 +1,12 @@
 // Kin SlideHolder
 
 var slideholderkin = document.getElementById("slideholderkin");
-slideholderkin.style.backgroundImage = "url('img/kin1.jpg')";
+slideholderkin.style.backgroundImage = "url('H6.img/kin1.jpg')";
 var tellerkin = 1;
 
 
 slideholderkin.addEventListener("click", function () {
-    slideholderkin.style.backgroundImage = "url('img/kin" + volgendeAfbeeldingkin() + ".jpg')";
+    slideholderkin.style.backgroundImage = "url('H6.img/kin" + volgendeAfbeeldingkin() + ".jpg')";
 });
 
 function volgendeAfbeeldingkin() {
@@ -21,12 +21,12 @@ function volgendeAfbeeldingkin() {
 // Neus Slidehoder
 
 var slideholderneus = document.getElementById("slideholderneus");
-slideholderneus.style.backgroundImage = "url('img/neus1.jpg')";
+slideholderneus.style.backgroundImage = "url('H6.img/neus1.jpg')";
 var tellerneus = 1;
 
 
 slideholderneus.addEventListener("click", function () {
-    slideholderneus.style.backgroundImage = "url('img/neus" + volgendeAfbeeldingneus() + ".jpg')";
+    slideholderneus.style.backgroundImage = "url('H6.img/neus" + volgendeAfbeeldingneus() + ".jpg')";
 });
 
 function volgendeAfbeeldingneus() {
@@ -41,12 +41,12 @@ function volgendeAfbeeldingneus() {
 // Ogen Slidehoder
 
 var slideholderogen = document.getElementById("slideholderogen");
-slideholderogen.style.backgroundImage = "url('img/ogen1.jpg')";
+slideholderogen.style.backgroundImage = "url('H6.img/ogen1.jpg')";
 var tellerogen = 1;
 
 
 slideholderogen.addEventListener("click", function () {
-    slideholderogen.style.backgroundImage = "url('img/ogen" + volgendeAfbeeldingogen() + ".jpg')";
+    slideholderogen.style.backgroundImage = "url('H6.img/ogen" + volgendeAfbeeldingogen() + ".jpg')";
 });
 
 function volgendeAfbeeldingogen() {

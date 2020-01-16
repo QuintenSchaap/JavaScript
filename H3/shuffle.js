@@ -1,4 +1,4 @@
-var plaatjes = document.getElementsByTagName("img");
+var plaatjes = document.getElementsByTagName("H6.img");
 var random = 0;
 var randomNumbers = [];
 
@@ -18,6 +18,6 @@ while(randomNumbers.length < 9) {
 
 random = 0;
 for(var i = 0; i <plaatjes.length; i++) {
-    plaatjes[i].src = "./img/afbeelding" + randomNumbers[random] + ".png";
+    plaatjes[i].src = "./H6.img/afbeelding" + randomNumbers[random] + ".png";
     random++;
 }
